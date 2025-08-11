@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* auto cho sidebar, 1fr cho phần còn lại */
+  grid-template-rows: 1fr;
+  /* chỉ 1 hàng */
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.body {
+  background-color: #eee;
+  padding: 10px;
+}
